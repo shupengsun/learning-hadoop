@@ -18,21 +18,21 @@
 
   <repositories>
     <repository>
-      <id>100credit</id>
-      <url>http://192.168.162.106:8081/nexus/content/groups/public/</url>
+      <id>*</id>
+      <url>*</url>
     </repository>
   </repositories>
 
   <distributionManagement>
     <repository>
-      <id>100credit_release</id>
-      <name>100credit Release Repository</name>
-      <url>http://192.168.162.106:8081/nexus/content/repositories/releases/</url>
+      <id>*</id>
+      <name>*</name>
+      <url>*</url>
     </repository>
     <snapshotRepository>
-      <id>100credit_snapshots</id>
-      <name>100credit Snapshot Repository</name>
-      <url>http://192.168.162.106:8081/nexus/content/repositories/snapshots/</url>
+      <id>*</id>
+      <name>*</name>
+      <url>*</url>
     </snapshotRepository>
   </distributionManagement>
 
